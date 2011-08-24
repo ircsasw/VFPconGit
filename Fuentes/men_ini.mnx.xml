@@ -1,0 +1,366 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="menu" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="objtype">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="2"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objcode">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="2"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="name">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="prompt">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="command">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="message">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="proctype">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="procedure">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="setuptype">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="setup">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="cleantype">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="cleanup">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mark">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="5"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="keyname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="keylabel">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="skipfor">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="namechange" type="xsd:boolean"/>
+								<xsd:element name="numitems">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="2"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="levelname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="itemnum">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="comment">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="location">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="2"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="scheme">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="2"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="sysres">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="1"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="resname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<menu>
+		<objtype>1</objtype>
+		<objcode>22</objcode>
+		<name/>
+		<prompt/>
+		<command/>
+		<message/>
+		<proctype>1</proctype>
+		<procedure/>
+		<setuptype>1</setuptype>
+		<setup/>
+		<cleantype>1</cleantype>
+		<cleanup/>
+		<mark>{4}</mark>
+		<keyname/>
+		<keylabel/>
+		<skipfor/>
+		<namechange>false</namechange>
+		<numitems>0</numitems>
+		<levelname/>
+		<itemnum>0</itemnum>
+		<comment/>
+		<location>0</location>
+		<scheme>0</scheme>
+		<sysres>0</sysres>
+		<resname/>
+	</menu>
+	<menu>
+		<objtype>2</objtype>
+		<objcode>1</objcode>
+		<name><![CDATA[_MSYSMENU]]></name>
+		<prompt/>
+		<command/>
+		<message/>
+		<proctype>1</proctype>
+		<procedure/>
+		<setuptype>0</setuptype>
+		<setup/>
+		<cleantype>0</cleantype>
+		<cleanup/>
+		<mark>{0}</mark>
+		<keyname/>
+		<keylabel/>
+		<skipfor/>
+		<namechange>false</namechange>
+		<numitems>2</numitems>
+		<levelname>_MSYSMENU</levelname>
+		<itemnum>0</itemnum>
+		<comment/>
+		<location>0</location>
+		<scheme>3</scheme>
+		<sysres>0</sysres>
+		<resname/>
+	</menu>
+	<menu>
+		<objtype>3</objtype>
+		<objcode>77</objcode>
+		<name/>
+		<prompt><![CDATA[Archivo]]></prompt>
+		<command/>
+		<message/>
+		<proctype>0</proctype>
+		<procedure/>
+		<setuptype>0</setuptype>
+		<setup/>
+		<cleantype>0</cleantype>
+		<cleanup/>
+		<mark>{0}</mark>
+		<keyname/>
+		<keylabel/>
+		<skipfor/>
+		<namechange>false</namechange>
+		<numitems>0</numitems>
+		<levelname>_MSYSMENU</levelname>
+		<itemnum>1</itemnum>
+		<comment/>
+		<location>0</location>
+		<scheme>0</scheme>
+		<sysres>0</sysres>
+		<resname/>
+	</menu>
+	<menu>
+		<objtype>2</objtype>
+		<objcode>0</objcode>
+		<name><![CDATA[Archivo]]></name>
+		<prompt/>
+		<command/>
+		<message/>
+		<proctype>1</proctype>
+		<procedure/>
+		<setuptype>0</setuptype>
+		<setup/>
+		<cleantype>0</cleantype>
+		<cleanup/>
+		<mark>{0}</mark>
+		<keyname/>
+		<keylabel/>
+		<skipfor/>
+		<namechange>false</namechange>
+		<numitems>1</numitems>
+		<levelname>Archivo</levelname>
+		<itemnum>0</itemnum>
+		<comment/>
+		<location>0</location>
+		<scheme>4</scheme>
+		<sysres>0</sysres>
+		<resname/>
+	</menu>
+	<menu>
+		<objtype>3</objtype>
+		<objcode>80</objcode>
+		<name/>
+		<prompt><![CDATA[Salir]]></prompt>
+		<command/>
+		<message/>
+		<proctype>1</proctype>
+		<procedure><![CDATA[IF TXNLEVEL() > 0 then
+	MESSAGEBOX('Guarde o cancele antes de salir.', 64, 'Sistema')
+ELSE
+	CLEAR ALL
+	CLOSE ALL
+	CLEAR PROGRAM
+	CLEAR EVENTS
+ENDIF
+]]></procedure>
+		<setuptype>0</setuptype>
+		<setup/>
+		<cleantype>0</cleantype>
+		<cleanup/>
+		<mark>{0}</mark>
+		<keyname/>
+		<keylabel/>
+		<skipfor/>
+		<namechange>false</namechange>
+		<numitems>0</numitems>
+		<levelname>Archivo</levelname>
+		<itemnum>1</itemnum>
+		<comment/>
+		<location>0</location>
+		<scheme>0</scheme>
+		<sysres>0</sysres>
+		<resname/>
+	</menu>
+	<menu>
+		<objtype>3</objtype>
+		<objcode>67</objcode>
+		<name/>
+		<prompt><![CDATA[Usuarios]]></prompt>
+		<command><![CDATA[DO FORM usuarios.scx]]></command>
+		<message/>
+		<proctype>0</proctype>
+		<procedure/>
+		<setuptype>0</setuptype>
+		<setup/>
+		<cleantype>0</cleantype>
+		<cleanup/>
+		<mark>{0}</mark>
+		<keyname/>
+		<keylabel/>
+		<skipfor/>
+		<namechange>false</namechange>
+		<numitems>0</numitems>
+		<levelname>_MSYSMENU</levelname>
+		<itemnum>2</itemnum>
+		<comment/>
+		<location>0</location>
+		<scheme>0</scheme>
+		<sysres>0</sysres>
+		<resname/>
+	</menu>
+</VFPData>

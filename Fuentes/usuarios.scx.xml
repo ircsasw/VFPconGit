@@ -1,0 +1,1481 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="form" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="platform">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="uniqueid">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="timestamp">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="10"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="class">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="classloc">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="baseclass">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="parent">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="properties">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="protected">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="methods">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objcode">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ole">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ole2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved1">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved3">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved4">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved5">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved6">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved7">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved8">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="user">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="nrecno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="10"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WD</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[dataenvironment]]></class>
+		<classloc/>
+		<baseclass><![CDATA[dataenvironment]]></baseclass>
+		<objname><![CDATA[Dataenvironment]]></objname>
+		<parent/>
+		<properties><![CDATA[Top = 337
+Left = 453
+Width = 520
+Height = 200
+DataSource = .NULL.
+Name = "Dataenvironment"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2><![CDATA[2]]></reserved2>
+		<reserved3/>
+		<reserved4><![CDATA[1]]></reserved4>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>2</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WF</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[form]]></class>
+		<classloc/>
+		<baseclass><![CDATA[form]]></baseclass>
+		<objname><![CDATA[Form1]]></objname>
+		<parent/>
+		<properties><![CDATA[Height = 218
+Width = 588
+DoCreate = .T.
+AutoCenter = .T.
+Caption = "Usuarios"
+Icon = ..\interface\icono.ico
+Name = "Form1"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE comandos
+LPARAMETERS l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12, l13
+
+THISFORM.Command1.ENABLED = l1		&& Primero
+THISFORM.Command2.ENABLED = l2		&& Anterior
+THISFORM.Command3.ENABLED = l3		&& Siguiente
+THISFORM.Command4.ENABLED = l4		&& Último
+
+THISFORM.Command5.ENABLED = l5		&& Modificar
+THISFORM.Command6.ENABLED = l6		&& Cancelar
+
+THISFORM.Command7.ENABLED = l7		&& Nuevo
+THISFORM.Command8.ENABLED = l8		&& Deshacer
+THISFORM.Command9.ENABLED = l9		&& Guardar
+THISFORM.Command10.ENABLED = l10	&& Borrar
+
+THISFORM.Command11.ENABLED = l11	&& Buscar
+
+THISFORM.Command12.ENABLED = l12	&& Imprimir
+
+ThisForm.Command13.enabled = l13	&& Salir
+ENDPROC
+PROCEDURE Init
+SET EXACT ON
+SET ANSI ON
+SET DATE TO DMY
+SET DELETED ON
+SET ESCAPE OFF
+SET TALK OFF
+SET CENTURY ON
+SET DECIMALS TO 4
+SET REPROCESS TO 10	&& Para red
+SET MULTILOCKS ON 
+
+THIS.CAPTION = 'Usuarios - Pruebas de Git/GitHub'
+*This.Width = 585
+*This.BorderStyle = 2 
+THIS.comandos(.T.,.T.,.T.,.T.,.T.,.F.,.T.,.F.,.F.,.T.,.T.,.T.,.T.)
+
+THIS.SETALL('ENABLED', .F., 'TextBox')
+THIS.SETALL('ENABLED', .F., 'EditBox')
+THIS.SETALL('ENABLED', .F., 'ComboBox')
+THIS.SETALL('ENABLED', .F., 'Spinner')
+
+ENDPROC
+PROCEDURE validar
+RETURN .T.
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3><![CDATA[*comandos *validar 
+*validar 
+]]></reserved3>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>4</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WE</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[cursor]]></class>
+		<classloc/>
+		<baseclass><![CDATA[cursor]]></baseclass>
+		<objname><![CDATA[Cursor1]]></objname>
+		<parent><![CDATA[Dataenvironment]]></parent>
+		<properties><![CDATA[Top = 20
+Left = 10
+Height = 90
+Width = 90
+Alias = "usuarios"
+BufferModeOverride = 5
+Order = "idusuario"
+Database = ..\datos\vfpcongit.dbc
+CursorSource = "usuarios"
+Name = "Cursor1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>3</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WH</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command1]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 14
+Height = 30
+Width = 30
+Picture = ..\iconos\arrow_top.bmp
+DisabledPicture = ..\iconos\arrow_top_g.bmp
+Caption = ""
+TabIndex = 1
+ToolTipText = "Primero"
+Name = "Command1"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+SELECT usuarios
+IF NOT EOF()
+	GO TOP IN usuarios
+	IF EOF()
+		GO TOP IN usuarios
+	ENDIF
+ENDIF
+
+THISFORM.REFRESH
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>6</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WQ</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command10]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 294
+Height = 30
+Width = 30
+Picture = ..\iconos\trash.bmp
+DisabledPicture = ..\iconos\trash_g.bmp
+Caption = ""
+Enabled = .T.
+TabIndex = 10
+ToolTipText = "Borrar"
+Name = "Command10"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+*!*	IF !permisos.key25_ then
+*!*		cerrado()
+*!*		RETURN .T.
+*!*	ENDIF
+
+IF MESSAGEBOX('Realmente desea eliminar a...' + CHR(13) + ;
+		ALLTRIM(usuarios.nombre) + '?', 36, 'Sistema') = 6
+	**BEGIN TRANSACTION
+	SELECT usuarios
+	DELETE
+	THISFORM.Command2.CLICK
+	**END TRANSACTION
+	= TABLEUPDATE(.T.)
+ENDIF
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>15</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WR</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command11]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 428
+Height = 30
+Width = 30
+Picture = ..\iconos\search.bmp
+DisabledPicture = ..\iconos\search_g.bmp
+Caption = ""
+TabIndex = 11
+ToolTipText = "Buscar(F2)"
+Name = "Command11"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+cLista1 = 'idusuario,usuario,nombre'
+cLista2 = 'ID,Usuario,Nombre'
+cLista3 = '40,170,180'
+DO FORM buscar WITH 'usuarios', 'N', 3, cLista1, 'idusuario', cLista2, cLista3 TO respuesta
+IF respuesta > 0
+	SELECT usuarios
+	SEEK respuesta
+	THISFORM.REFRESH
+ENDIF
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>16</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WT</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command12]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 463
+Height = 30
+Width = 30
+Picture = ..\iconos\printer_16.bmp
+DisabledPicture = ..\iconos\printer_16_g.bmp
+Caption = ""
+TabIndex = 12
+ToolTipText = "Imprimir"
+Name = "Command12"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+REPORT FORM usuarios.frx NOCONSOLE PREVIEW IN SCREEN TO PRINTER PROMPT 
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>18</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WS</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command13]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 543
+Height = 30
+Width = 30
+Picture = ..\iconos\door_out16.bmp
+DisabledPicture = ..\iconos\door_out16_g.bmp
+Caption = ""
+TabIndex = 13
+ToolTipText = "Salir(Alt+X)"
+Name = "Command13"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+THISFORM.RELEASE
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>17</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WI</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command2]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 44
+Height = 30
+Width = 30
+Picture = ..\iconos\arrow_back.bmp
+DisabledPicture = ..\iconos\arrow_back_g.bmp
+Caption = ""
+TabIndex = 2
+ToolTipText = "Anterior"
+Name = "Command2"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+SELECT usuarios
+IF NOT BOF()
+	SKIP -1
+	IF BOF()
+		GO TOP
+	ENDIF
+ENDIF
+
+THISFORM.REFRESH
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>7</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WJ</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command3]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 74
+Height = 30
+Width = 30
+Picture = ..\iconos\arrow_next.bmp
+DisabledPicture = ..\iconos\arrow_next_g.bmp
+Caption = ""
+TabIndex = 3
+ToolTipText = "Siguiente"
+Name = "Command3"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+SELECT usuarios
+IF NOT EOF()
+	SKIP
+	IF EOF()
+		GO BOTTOM
+	ENDIF
+ENDIF
+
+THISFORM.REFRESH
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>8</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WK</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command4]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 104
+Height = 30
+Width = 30
+Picture = ..\iconos\arrow_down.bmp
+DisabledPicture = ..\iconos\arrow_down_g.bmp
+Caption = ""
+TabIndex = 4
+ToolTipText = "Ultimo"
+Name = "Command4"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+SELECT usuarios
+IF NOT EOF()
+	GO BOTTOM IN usuarios
+	IF BOF()
+		GO BOTTOM IN usuarios
+	ENDIF
+ENDIF
+
+THISFORM.REFRESH
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>9</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WL</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command5]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 139
+Height = 30
+Width = 30
+Picture = ..\iconos\reply.bmp
+DisabledPicture = ..\iconos\reply_g.bmp
+Caption = ""
+Enabled = .T.
+TabIndex = 5
+ToolTipText = "Editar"
+Name = "Command5"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+*!*	IF !permisos.key23_ then
+*!*		cerrado()
+*!*		RETURN .T.
+*!*	ENDIF
+
+IF RECCOUNT() > 0
+	*BEGIN TRANSACTION
+	*SET SKIP OF MENU _MSYSMENU .T.
+	
+	THISFORM.CLOSABLE = .F.
+	THISFORM.comandos(.F.,.F.,.F.,.F.,.F.,.T.,.F.,.F.,.F.,.F.,.F.,.F.,.F.)
+
+	THISFORM.SETALL('ENABLED', .T., 'TextBox')
+	THISFORM.SETALL('ENABLED', .T., 'EditBox')
+	THISFORM.SETALL('ENABLED', .T., 'ComboBox')
+	THISFORM.SETALL('ENABLED', .T., 'Spinner')
+
+	THISFORM.txtIdUsuario.ENABLED = .F.
+
+	THISFORM.REFRESH
+
+ELSE
+	MESSAGEBOX('No hay datos para modificar.', 64, 'Sistema')
+ENDIF
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>10</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WM</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command6]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 169
+Height = 30
+Width = 30
+Picture = ..\iconos\save_.bmp
+DisabledPicture = ..\iconos\save_g.bmp
+Caption = ""
+Enabled = .T.
+TabIndex = 6
+ToolTipText = "No editar"
+Name = "Command6"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+IF THISFORM.validar()
+	nRes = MESSAGEBOX('¿Guardar los cambios?', 35, 'GUARDAR!!!')
+	DO CASE
+		CASE nRes = 6	&& Si
+			**END TRANSACTION
+			SELECT usuarios
+			= TABLEUPDATE(.T.)
+			
+			*SET SKIP OF MENU _MSYSMENU .F.
+			
+			THISFORM.comandos(.T.,.T.,.T.,.T.,.T.,.F.,.T.,.F.,.F.,.T.,.T.,.T.,.T.)
+			THISFORM.SETALL('ENABLED', .F., 'TextBox')
+			THISFORM.SETALL('ENABLED', .F., 'EditBox')
+			THISFORM.SETALL('ENABLED', .F., 'ComboBox')
+			THISFORM.SETALL('ENABLED', .F., 'CheckBox')
+			THISFORM.SETALL('ENABLED', .F., 'Spinner')
+			
+			THISFORM.CLOSABLE = .T.
+			THISFORM.REFRESH
+			
+		CASE nRes = 7	&& No
+			**ROLLBACK
+			SELECT usuarios
+			= TABLEUPDATE(.T.)
+			
+			*SET SKIP OF MENU _MSYSMENU .F.
+			
+			THISFORM.comandos(.T.,.T.,.T.,.T.,.T.,.F.,.T.,.F.,.F.,.T.,.T.,.T.,.T.)
+			THISFORM.SETALL('ENABLED', .F., 'TextBox')
+			THISFORM.SETALL('ENABLED', .F., 'EditBox')
+			THISFORM.SETALL('ENABLED', .F., 'ComboBox')
+			THISFORM.SETALL('ENABLED', .F., 'CheckBox')
+			THISFORM.SETALL('ENABLED', .F., 'Spinner')
+			
+			THISFORM.CLOSABLE = .T.
+			THISFORM.REFRESH
+		CASE nRes = 2	&& Cancelar
+	ENDCASE
+ENDIF
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>11</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WN</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command7]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 204
+Height = 30
+Width = 30
+Picture = ..\iconos\doc.bmp
+DisabledPicture = ..\iconos\doc_g.bmp
+Caption = ""
+Enabled = .T.
+TabIndex = 7
+ToolTipText = "Nuevo(Alt+Q)"
+Name = "Command7"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+*!*	IF !permisos.key24_ then
+*!*		cerrado()
+*!*		RETURN .T.
+*!*	ENDIF
+
+THISFORM.comandos(.F.,.F.,.F.,.F.,.F.,.F.,.F.,.T.,.T.,.F.,.F.,.F.,.F.)
+
+THISFORM.SETALL('ENABLED', .T., 'TextBox')
+THISFORM.SETALL('ENABLED', .T., 'EditBox')
+THISFORM.SETALL('ENABLED', .T., 'ComboBox')
+THISFORM.SETALL('ENABLED', .T., 'CheckBox')
+THISFORM.SETALL('ENABLED', .T., 'Spinner')
+
+THISFORM.CLOSABLE = .F.
+
+*SET SKIP OF MENU _MSYSMENU .T.
+
+SELECT usuarios
+APPEND BLANK
+
+THISFORM.REFRESH
+
+*THISFORM.txtIdUsuario.VALUE = 0
+THISFORM.txtIdUsuario.Enabled = .F. 
+THISFORM.txtUsuario.SETFOCUS
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>12</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WO</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command8]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 234
+Height = 30
+Width = 30
+Picture = ..\iconos\descartar.bmp
+DisabledPicture = ..\iconos\descartar_g.bmp
+Caption = ""
+Enabled = .T.
+TabIndex = 8
+ToolTipText = "Deshacer(Alt+D)"
+Name = "Command8"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+IF MESSAGEBOX('¿Descartar los cambios?', 36, 'Sistema') = 6 then
+	**ROLLBACK
+	SELECT usuarios
+	= TABLEREVERT(.T.)
+	
+	THISFORM.comandos(.T.,.T.,.T.,.T.,.T.,.F.,.T.,.F.,.F.,.T.,.T.,.T.,.T.)
+
+	THISFORM.SETALL('ENABLED', .F., 'TextBox')
+	THISFORM.SETALL('ENABLED', .F., 'EditBox')
+	THISFORM.SETALL('ENABLED', .F., 'ComboBox')
+	THISFORM.SETALL('ENABLED', .F., 'CheckBox')
+	THISFORM.SETALL('ENABLED', .F., 'Spinner')
+
+	THISFORM.CLOSABLE = .T.
+
+	*SET SKIP OF MENU _MSYSMENU .F.
+	
+	THISFORM.command2.CLICK
+	THISFORM.REFRESH
+ENDIF
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>13</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WP</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command9]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 11
+Left = 264
+Height = 30
+Width = 30
+Picture = ..\iconos\save_.bmp
+DisabledPicture = ..\iconos\save_g.bmp
+Caption = ""
+Enabled = .T.
+TabIndex = 9
+ToolTipText = "Guardar(Alt+G)"
+Name = "Command9"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+IF THISFORM.validar() THEN 
+	IF MESSAGEBOX('Estan correctos los datos?', 36, 'GUARDAR!!') = 6 THEN 
+		THISFORM.comandos(.T.,.T.,.T.,.T.,.T.,.F.,.T.,.F.,.F.,.T.,.T.,.T.,.T.)
+
+		THISFORM.SETALL('ENABLED', .F., 'TextBox')
+		THISFORM.SETALL('ENABLED', .F., 'EditBox')
+		THISFORM.SETALL('ENABLED', .F., 'ComboBox')
+		THISFORM.SETALL('ENABLED', .F., 'Spinner')
+
+		THISFORM.CLOSABLE = .T.
+
+		SELECT usuarios
+		**END TRANSACTION
+		= TABLEUPDATE(.T.)
+		
+		*SET SKIP OF MENU _MSYSMENU .F.
+
+		THISFORM.REFRESH
+	ENDIF
+ENDIF
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>14</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WG</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[shape]]></class>
+		<classloc/>
+		<baseclass><![CDATA[shape]]></baseclass>
+		<objname><![CDATA[Shape1]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 6
+Left = 6
+Height = 40
+Width = 577
+SpecialEffect = 0
+Name = "Shape1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>5</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WZ</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblContrasena]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+WordWrap = .T.
+BackStyle = 0
+Caption = "Contraseña"
+Left = 14
+Top = 114
+Width = 66
+TabIndex = 18
+Name = "lblContrasena"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>24</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WV</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblIdusuario]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+WordWrap = .T.
+BackStyle = 0
+Caption = "Idusuario"
+Left = 27
+Top = 60
+Width = 53
+TabIndex = 14
+Name = "lblIdusuario"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>20</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71X1</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblNombre]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+WordWrap = .T.
+BackStyle = 0
+Caption = "Nombre"
+Left = 35
+Top = 141
+Width = 45
+TabIndex = 20
+Name = "lblNombre"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>26</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0RBOZJ</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblPerfil]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+WordWrap = .T.
+BackStyle = 0
+Caption = "Perfil"
+Left = 50
+Top = 169
+Width = 30
+TabIndex = 22
+Name = "lblPerfil"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>28</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WX</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblUsuario]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+WordWrap = .T.
+BackStyle = 0
+Caption = "Usuario"
+Left = 36
+Top = 87
+Width = 44
+TabIndex = 16
+Name = "lblUsuario"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>22</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0RBOZI</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[spinner]]></class>
+		<classloc/>
+		<baseclass><![CDATA[spinner]]></baseclass>
+		<objname><![CDATA[spnPerfil]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Comment = ""
+Height = 24
+KeyboardHighValue = 3
+KeyboardLowValue = 1
+Left = 85
+SpinnerHighValue =   3.00
+SpinnerLowValue =   1.00
+TabIndex = 23
+Top = 165
+Width = 51
+ControlSource = "usuarios.perfil"
+Name = "spnPerfil"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>27</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WY</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtContrasena]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Comment = ""
+ControlSource = "usuarios.contrasena"
+Height = 23
+Left = 85
+MaxLength = 100
+TabIndex = 19
+Top = 111
+Width = 149
+Name = "txtContrasena"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>23</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WU</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtIdusuario]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Comment = ""
+ControlSource = "usuarios.idusuario"
+Height = 23
+Left = 85
+TabIndex = 15
+Top = 57
+Width = 87
+Name = "txtIdusuario"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>19</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71X0</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtNombre]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Comment = ""
+ControlSource = "usuarios.nombre"
+Height = 23
+Left = 85
+MaxLength = 80
+TabIndex = 21
+Top = 138
+Width = 384
+Name = "txtNombre"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>25</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_3AN0R71WW</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtUsuario]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Comment = ""
+ControlSource = "usuarios.usuario"
+Height = 23
+Left = 85
+MaxLength = 20
+TabIndex = 17
+Top = 84
+Width = 149
+Name = "txtUsuario"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>21</nrecno>
+	</form>
+	<form>
+		<platform>COMMENT</platform>
+		<uniqueid>Screen</uniqueid>
+		<timestamp>0</timestamp>
+		<class/>
+		<classloc/>
+		<baseclass/>
+		<objname/>
+		<parent/>
+		<properties/>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1><![CDATA[VERSION =   3.00]]></reserved1>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>1</nrecno>
+	</form>
+	<form>
+		<platform>COMMENT</platform>
+		<uniqueid>RESERVED</uniqueid>
+		<timestamp>0</timestamp>
+		<class/>
+		<classloc/>
+		<baseclass/>
+		<objname/>
+		<parent/>
+		<properties/>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>29</nrecno>
+	</form>
+</VFPData>

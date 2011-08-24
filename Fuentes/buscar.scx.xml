@@ -1,0 +1,1207 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="form" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="platform">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="uniqueid">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="timestamp">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="10"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="class">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="classloc">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="baseclass">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="parent">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="properties">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="protected">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="methods">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objcode">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ole">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ole2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved1">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved3">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved4">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved5">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved6">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved7">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved8">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="user">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="nrecno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="10"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW3</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[dataenvironment]]></class>
+		<classloc/>
+		<baseclass><![CDATA[dataenvironment]]></baseclass>
+		<objname><![CDATA[Dataenvironment]]></objname>
+		<parent/>
+		<properties><![CDATA[Top = 0
+Left = 0
+Width = 0
+Height = 0
+DataSource = .NULL.
+Name = "Dataenvironment"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2><![CDATA[1]]></reserved2>
+		<reserved3/>
+		<reserved4><![CDATA[1]]></reserved4>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>2</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW4</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[form]]></class>
+		<classloc/>
+		<baseclass><![CDATA[form]]></baseclass>
+		<objname><![CDATA[Form1]]></objname>
+		<parent/>
+		<properties><![CDATA[BorderStyle = 3
+Top = 50
+Left = 64
+Height = 336
+Width = 576
+DoCreate = .T.
+AutoCenter = .F.
+Caption = "Form1"
+MaxButton = .F.
+MinButton = .F.
+Icon = ..\interface\icono.ico
+WindowType = 1
+Name = "Form1"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE hacegrid
+Thisform.Grid1.Anchor = 15
+Thisform.Grid1.BackColor = Rgb(255,255,255)
+Thisform.Grid1.DeleteMark = .F.
+Thisform.Grid1.GridLineColor = Rgb(192,192,192)
+Thisform.Grid1.HeaderHeight = 20
+Thisform.Grid1.ReadOnly = .T.
+Thisform.Grid1.RecordMark = .T.
+
+THISFORM.Grid1.RECORDSOURCETYPE = 1
+THISFORM.Grid1.COLUMNCOUNT = nCamp
+THISFORM.Grid1.RECORDSOURCE = 'cCursor'
+THISFORM.Grid1.SCROLLBARS = 2
+
+FOR i = 1 TO nCamp
+	Ancho = 'THISFORM.Grid1.column' + ALLTRIM(STR(i)) + '.WIDTH'
+	&Ancho = VAL(ALLTRIM(THISFORM.anchos.LIST(i)))
+	Cabeza = 'THISFORM.Grid1.column' + ALLTRIM(STR(i)) + '.HEADER1.CAPTION'
+	&Cabeza = ALLTRIM(THISFORM.campo.LIST(i))
+	IF i = 2 then
+		*THISFORM.Grid1.column2.BACKCOLOR = RGB(145,166,183)
+		*THISFORM.Grid1.column2.FORECOLOR = RGB(255,255,255)
+		THISFORM.Grid1.column2.FONTBOLD = .T.
+	ELSE
+		*ElColor = 'THISFORM.Grid1.column' + ALLTRIM(STR(i)) + '.BACKCOLOR'
+		*&ElColor = RGB(230,230,230)
+	ENDIF
+ENDFOR
+
+ThisForm.grid1.SetAll("DynamicBackColor", ;
+	"IIF(MOD(RECNO(),2)=0, RGB(238,246,255), RGB(255,255,255))", "Column")
+	
+THISFORM.Grid1.column2.text1.SETFOCUS
+
+ENDPROC
+PROCEDURE Init
+*****************************************************************************
+*****						IRCSA, S.A. de C.V.							*****
+*****																	*****
+*****		 Formulario para realizar búsquedas personalizadas			*****
+*****																	*****
+*****	DO FORM buscar.scx WITH cTablaBus, cTipoIndice, nCampos, ;		*****
+*****		cListaCampos, cCampoIndice, cListaSel, cAnchosCol ;			*****
+*****		TO respuesta												*****
+*****																	*****
+*****	Parámetros de entrada:											*****
+*****		cTablaBus = Tabla donde se va a realizar la búsqueda		*****
+*****		cTipoIndice = Tipo de dato del campo índice 				*****
+*****				'C' - caracter										*****
+*****				'N' - numérico										*****
+*****				'F' - fecha											*****
+*****		nCampos = Número de campos para hacer el grid				*****
+*****		cListaCampos = Lista de campos para la instrucción SELECT	*****
+*****		cCampoIndice = Nombre del campo índice						*****
+*****		cListaSel = Lista de campos para el objeto combo			*****
+*****		cAnchosCol = Lista de los anchos de las columnas del grid	*****
+*****																	*****
+*****	Parámetros de salida:											*****
+*****		respuesta													*****
+*****			- Es 0(cero) si cancela y cTipoIndice es 'N'			*****
+*****			- Es '' si cancela y cTipoIndice es 'C'					*****
+*****			- Es CTOD('//') si cancela y cTipoIndice es 'F'			*****
+*****			- O es el valor encontradodel índice de la tabla		*****
+*****************************************************************************
+
+LPARAMETERS cTablaBus, cTipoIndice, nCampos, cListaCampos, ;
+	cCampoIndice, cListaSel, cAnchosCol
+
+SET DATE TO DMY
+SET DELETED ON
+THIS.CAPTION = 'Buscar'
+
+PUBLIC RegresaIndice, cTabla, cListaC, nCamp, cIndice, cTipo, cCampoSelec
+cTabla = cTablaBus
+cTipo = cTipoIndice
+nCamp = nCampos
+cListaC = cListaCampos
+cIndice = cCampoIndice
+
+DO CASE
+	CASE cTipo = 'C'
+		RegresaIndice = ''
+	CASE cTipo = 'N'
+		RegresaIndice = 0
+	CASE cTipo = 'F'
+		RegresaIndice = CTOD('//')
+ENDCASE
+
+THISFORM.campo.ROWSOURCETYPE = 1
+THISFORM.campo.ROWSOURCE = cListaSel
+
+THISFORM.entabla.ROWSOURCETYPE = 1
+THISFORM.entabla.ROWSOURCE = cListaC
+
+THISFORM.anchos.ROWSOURCETYPE = 1
+THISFORM.anchos.ROWSOURCE = cAnchosCol
+
+SELECT &cListaC FROM &cTabla INTO CURSOR cCursor
+THIS.hacegrid
+
+ENDPROC
+PROCEDURE Unload
+RETURN RegresaIndice
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3><![CDATA[*hacegrid 
+]]></reserved3>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>3</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_16A0M2N69</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[Command1]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 15
+Left = 534
+Height = 30
+Width = 30
+Picture = ..\iconos\find1.bmp
+Caption = ""
+SpecialEffect = 0
+Name = "Command1"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+SELECT &cListaC FROM &cTabla INTO CURSOR cCursor
+THISform.hacegrid
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>24</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15I5UE</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[grid]]></class>
+		<classloc/>
+		<baseclass><![CDATA[grid]]></baseclass>
+		<objname><![CDATA[Grid1]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[ColumnCount = 2
+DeleteMark = .F.
+Height = 201
+Left = 12
+ReadOnly = .T.
+RecordSourceType = 1
+ScrollBars = 3
+SplitBar = .F.
+TabIndex = 12
+TabStop = .F.
+Top = 121
+Width = 552
+Name = "Grid1"
+Column1.ReadOnly = .T.
+Column1.Name = "Column1"
+Column2.ReadOnly = .T.
+Column2.Name = "Column2"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE ActivateCell
+LPARAMETERS nRow, nCol
+ENDPROC
+PROCEDURE AfterRowColChange
+LPARAMETERS nColIndex
+cSelec = 'cCursor.' + cIndice
+RegresaIndice = &cSelec
+DO CASE 
+	CASE TYPE('THISFORM.grid1.column2.text1.VALUE') = 'C'
+		THISFORM.cResp.CAPTION = THISFORM.grid1.column2.text1.VALUE
+	CASE TYPE('THISFORM.grid1.column2.text1.VALUE') = 'N'
+		THISFORM.cResp.CAPTION = ALLTRIM(STR(THISFORM.grid1.column2.text1.VALUE))
+ENDCASE 
+ENDPROC
+PROCEDURE BeforeRowColChange
+LPARAMETERS nColIndex
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>17</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW7</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[Label1]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+Caption = "Bu\<scar:"
+Height = 17
+Left = 12
+Top = 22
+Width = 46
+TabIndex = 1
+Name = "Label1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>5</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW9</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[Label2]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .F.
+FontBold = .T.
+FontName = "Tahoma"
+Alignment = 1
+Caption = "?"
+Height = 17
+Left = 220
+Top = 22
+Width = 135
+TabIndex = 3
+ForeColor = 3,101,146
+Name = "Label2"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>6</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW4</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[Label4]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+Caption = " Mostrar... "
+Height = 17
+Left = 12
+Top = 53
+Width = 62
+TabIndex = 10
+Style = 3
+Name = "Label4"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>14</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15B26G</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[Label5]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .T.
+FontBold = .T.
+Caption = "  Coincide(n) 0 registro(s)...  "
+Height = 17
+Left = 12
+Top = 103
+Width = 160
+TabIndex = 11
+Style = 3
+Name = "Label5"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>16</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW6</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[shape]]></class>
+		<classloc/>
+		<baseclass><![CDATA[shape]]></baseclass>
+		<objname><![CDATA[Shape1]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 8
+Left = 4
+Height = 44
+Width = 568
+SpecialEffect = 0
+Name = "Shape1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>4</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KW3</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[shape]]></class>
+		<classloc/>
+		<baseclass><![CDATA[shape]]></baseclass>
+		<objname><![CDATA[Shape2]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 61
+Left = 4
+Height = 40
+Width = 568
+SpecialEffect = 0
+Style = 3
+Name = "Shape2"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>8</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15B26F</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[shape]]></class>
+		<classloc/>
+		<baseclass><![CDATA[shape]]></baseclass>
+		<objname><![CDATA[Shape3]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 111
+Left = 4
+Height = 220
+Width = 568
+SpecialEffect = 0
+Style = 3
+Name = "Shape3"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>15</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0SK15M8MN</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[combobox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[combobox]]></baseclass>
+		<objname><![CDATA[anchos]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Height = 24
+Left = 201
+Top = 145
+Visible = .F.
+Width = 135
+Name = "anchos"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>23</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KWN</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[label]]></class>
+		<classloc/>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[cResp]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[AutoSize = .F.
+FontBold = .T.
+FontName = "Tahoma"
+FontSize = 10
+Caption = ""
+Height = 17
+Left = 12
+Top = 73
+Width = 322
+TabIndex = 8
+ForeColor = 3,101,146
+Style = 3
+Name = "cResp"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>13</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KWG</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[combobox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[combobox]]></baseclass>
+		<objname><![CDATA[campo]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[RowSourceType = 1
+RowSource = "Matrícula,Nombre(s),Apellido paterno,Apellido materno"
+DisplayValue = 
+Left = 62
+Style = 2
+TabIndex = 2
+Top = 18
+Width = 153
+DisplayCount = 0
+Name = "campo"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+
+
+ENDPROC
+PROCEDURE LostFocus
+THISFORM.Label2.CAPTION = THIS.DISPLAYVALUE
+cCampoSelec = cTabla + '.' + ALLTRIM(THISFORM.entabla.LIST(THIS.LISTITEMID))
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>11</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KWJ</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[cmdBuscar]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 68
+Left = 345
+Height = 27
+Width = 71
+Picture = ..\iconos\search.bmp
+DisabledPicture = ..\iconos\search_g.bmp
+Caption = "\<Buscar"
+TabIndex = 5
+PicturePosition = 0
+PictureMargin = 1
+PictureSpacing = 0
+Name = "cmdBuscar"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+WAIT 'Espere...' WINDOW NOWAIT
+DO CASE
+	CASE TYPE(cCampoSelec) = 'C'
+		SELECT &cListaC FROM &cTabla ;
+			WHERE ATC(UPPER(ALLTRIM(THISFORM.valor.VALUE)),UPPER(ALLTRIM(&cCampoSelec))) > 0 ;
+			INTO CURSOR cCursor
+
+	CASE TYPE(cCampoSelec) = 'N'
+		SELECT &cListaC FROM &cTabla ;
+			WHERE &cCampoSelec = VAL(THISFORM.valor.VALUE) INTO CURSOR cCursor
+
+	CASE TYPE(cCampoSelec) = 'D'
+		SELECT &cListaC FROM &cTabla ;
+			WHERE &cCampoSelec = CTOD(THISFORM.valor.VALUE) INTO CURSOR cCursor
+ENDCASE
+
+THISFORM.Label5.CAPTION = '  Coincide(n) ' + ALLTRIM(STR(_TALLY)) + ' registro(s)...  '
+THISFORM.hacegrid
+
+WAIT CLEAR
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>12</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KWD</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[cmdCancelar]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 68
+Left = 493
+Height = 27
+Width = 71
+FontExtend = .F.
+Caption = "\<Cancelar"
+TabIndex = 7
+Name = "cmdCancelar"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+DO CASE
+	CASE cTipo = 'C'
+		RegresaIndice = ''
+	CASE cTipo = 'N'
+		RegresaIndice = 0
+	CASE cTipo = 'F'
+		RegresaIndice = CTOD('//')
+ENDCASE
+THISFORM.RELEASE
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>9</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KWF</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[commandbutton]]></class>
+		<classloc/>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[cmdMostrar]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Top = 68
+Left = 419
+Height = 27
+Width = 71
+Caption = "\<Mostrar"
+TabIndex = 6
+Name = "cmdMostrar"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+THISFORM.RELEASE
+
+ENDPROC
+]]></methods>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>10</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0SK12YVKA</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[combobox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[combobox]]></baseclass>
+		<objname><![CDATA[entabla]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[Height = 24
+Left = 346
+Top = 145
+Visible = .F.
+Width = 144
+Name = "entabla"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>22</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0MD187KWA</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[valor]]></objname>
+		<parent><![CDATA[Form1]]></parent>
+		<properties><![CDATA[BackStyle = 1
+ControlSource = ""
+Enabled = .T.
+Format = "K"
+Height = 23
+Left = 360
+TabIndex = 4
+Top = 19
+Width = 167
+ForeColor = 0,0,0
+DisabledBackColor = 192,192,192
+Name = "valor"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>7</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15VH7Q</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[header]]></class>
+		<classloc/>
+		<baseclass><![CDATA[header]]></baseclass>
+		<objname><![CDATA[Header1]]></objname>
+		<parent><![CDATA[Form1.Grid1.Column1]]></parent>
+		<properties><![CDATA[Caption = "Header1"
+Name = "Header1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>18</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15VH7R</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[Text1]]></objname>
+		<parent><![CDATA[Form1.Grid1.Column1]]></parent>
+		<properties><![CDATA[BorderStyle = 0
+Margin = 0
+ReadOnly = .T.
+ForeColor = 0,0,0
+BackColor = 255,255,255
+Name = "Text1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>19</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15VH7S</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[header]]></class>
+		<classloc/>
+		<baseclass><![CDATA[header]]></baseclass>
+		<objname><![CDATA[Header1]]></objname>
+		<parent><![CDATA[Form1.Grid1.Column2]]></parent>
+		<properties><![CDATA[Caption = "Header1"
+Name = "Header1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>20</nrecno>
+	</form>
+	<form>
+		<platform>WINDOWS</platform>
+		<uniqueid>_0NF15VH7T</uniqueid>
+		<timestamp>0</timestamp>
+		<class><![CDATA[textbox]]></class>
+		<classloc/>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[Text1]]></objname>
+		<parent><![CDATA[Form1.Grid1.Column2]]></parent>
+		<properties><![CDATA[BorderStyle = 0
+Margin = 0
+ReadOnly = .T.
+ForeColor = 0,0,0
+BackColor = 255,255,255
+Name = "Text1"
+]]></properties>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>21</nrecno>
+	</form>
+	<form>
+		<platform>COMMENT</platform>
+		<uniqueid>Screen</uniqueid>
+		<timestamp>0</timestamp>
+		<class/>
+		<classloc/>
+		<baseclass/>
+		<objname/>
+		<parent/>
+		<properties/>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1><![CDATA[VERSION =   3.00]]></reserved1>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>1</nrecno>
+	</form>
+	<form>
+		<platform>COMMENT</platform>
+		<uniqueid>RESERVED</uniqueid>
+		<timestamp>0</timestamp>
+		<class/>
+		<classloc/>
+		<baseclass/>
+		<objname/>
+		<parent/>
+		<properties/>
+		<protected/>
+		<methods/>
+		<objcode/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>25</nrecno>
+	</form>
+</VFPData>

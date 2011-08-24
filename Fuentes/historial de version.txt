@@ -1,0 +1,10 @@
+****************************************************************************
+HISTORIAL DE VERSIÓN
+Historial de la versión 0.0.nn del sistema VFPconGit
+Grupos: Mejoras, Bugs solucuionados, Información y documentos, Base de datos
+****************************************************************************
+
+Versión 0.0.0(//)
+Mejoras
+========================
++ 
