@@ -281,6 +281,19 @@ THIS.SETALL('ENABLED', .F., 'Spinner')
 
 ENDPROC
 PROCEDURE validar
+* -- Debe indicar Usuario
+IF LEN(ALLTRIM(ThisForm.txtUsuario.Value))=0 THEN 
+	MESSAGEBOX("Debe indicar el Usuario.", 16, "Sistema")
+	RETURN .F.
+ENDIF 
+
+* -- Debe indicar el Nombre
+IF LEN(ALLTRIM(ThisForm.txtNombre.Value))=0 THEN 
+	MESSAGEBOX("Debe indicar el Nombre.", 16, "Sistema")
+	RETURN .F.
+ENDIF 
+
+* -- TODO BIEN
 RETURN .T.
 ENDPROC
 ]]></methods>
