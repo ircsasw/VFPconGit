@@ -59,8 +59,15 @@ git pull
 Siémpre trata de hacer un pull antes de hacer un push para que los posibles conflictos los administres desde tu computadora; igual trata de hacer push periodicamente sobre todo cuando hagas muchos cambios.
 
 
+===========
+El truco !!
+===========
+
+Los sistemas de control de versiones tienen problemas al manejar archivos binarios; ya que los formularios, librerías VCX, reportes, etcétera son en realidad tablas DBF (archivos binarios), es casi imposible llevar un control de cambios en ellos; el truco está en pasar todos estos archivos en archivos xml de texto plano para lo que utilizamos las aplicaciones de Christof Wollenhaupt, GENXML.app y GENCODE.app; la primera toma un proyecto de VFP y transforma todos los archivos como formularios, librerías, reportes, ... en archivos xml y la segunda regresa los archivos xml en su correspondiente formulario, reporte, librería, ...
+
+
 ============================
-Guias, ranuales, recursos...
+Guias, manuales, recursos...
 ============================
 
 Control de versiones con git y github
@@ -124,22 +131,16 @@ Instalar cliente de Git en Windows y conectarse a GitHub
 http://neurock.com/neurock_blog/2011/07/18/instalar-cliente-git-en-windows-y-conectarse-a-github/
 
 
-VFP2Text
---------
-Add-on for Beyond Compare that allows read-only comparisons of Microsoft Visual FoxPro files. 
-http://www.pfsolutions-mi.com/dnn/Downloads/tabid/76/Default.aspx
-
-
-Beyond Compare
---------------
-Herramienta para comparar archivos y carpetas
-http://www.scootersoftware.com/download.php
-
-
 TwoFox
 ------
 Two-way text conversion for VFP files. GenXML converts form, class libraries, etc. into XML files that can easily be handled by version control systems like CVS and SubVersion. For VCX files GenXML generates one XML file for each class letting you create a history for each class and minimizing conflicts. GenCode converts these XML files back into binary files. 
 http://foxpert.com/downloads.htm
+
+
+VFP2Text
+--------
+Add-on for Beyond Compare that allows read-only comparisons of Microsoft Visual FoxPro files. 
+http://www.pfsolutions-mi.com/dnn/Downloads/tabid/76/Default.aspx
 
 
 scXML
@@ -152,6 +153,12 @@ WinMerge
 --------
 WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.
 http://winmerge.org/
+
+
+Beyond Compare
+--------------
+Herramienta para comparar archivos y carpetas
+http://www.scootersoftware.com/download.php
 
 
 CVS, SubVersion and Visual FoxPro
